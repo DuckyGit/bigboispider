@@ -27,13 +27,13 @@ if(isset($_POST['crawl'])){
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web crawler</title>
+<title>BigBoiSpider</title>
 <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 <body>
 <form method="post" action="crawler.php">
 <p style="text-align:center;"><input type="text" name="target" class="input" /></p>
-<p style="text-align:center;"><input type="submit" name="crawl" class="button" value="Crawl !" /></p>
+<p style="text-align:center;"><input type="submit" name="crawl" class="button" value="Release the spider!" /></p>
 </form>
 </body>
 </html>
